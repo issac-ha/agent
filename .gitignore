@@ -31,3 +31,8 @@ build/
 # 日志
 logs/
 *.log
+
+# 运行时数据
+long_term_memory.json
+*.db
+*.sqlite
