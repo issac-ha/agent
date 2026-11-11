@@ -1,10 +1,20 @@
 # AI Agent 学习项目依赖
-# 第一课不需要任何第三方库，纯 Python 即可
 
-# 后续课程会用到（先注释，用到时再取消）
-# openai>=1.0.0          # 大模型 API
-# langchain>=0.1.0       # Agent 框架
-# langgraph>=0.0.0       # 图编排
-# chromadb>=0.4.0        # 向量数据库
-# sentence-transformers  # 本地 Embedding 模型
-# python-dotenv          # 环境变量管理
+# 大模型 API
+openai>=1.0.0
+
+# 环境变量管理
+python-dotenv
+
+# Agent 框架（第六课起）
+langchain>=1.0.0
+langchain-openai>=0.0.1
+
+# 图编排（第八课起）
+# langgraph
+
+# 向量数据库（第七课起）
+# chromadb
+
+# 本地 Embedding 模型（第七课起）
+# sentence-transformers
