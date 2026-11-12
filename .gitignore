@@ -36,3 +36,7 @@ logs/
 long_term_memory.json
 *.db
 *.sqlite
+
+# 实战项目（独立 git 仓库，父仓库不跟踪）
+diy-agent/
+chroma_db/
